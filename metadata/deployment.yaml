@@ -22,7 +22,7 @@ spec:
         spec:
             containers:
             - name: min-k8s-app-pod
-              image: redestroyder/k8s_minimal_app:0.0.1-BETA
+              image: redestroyder/k8s_minimal_app:0.0.1-STABLE
               ports:
               -   containerPort: 8080
               livenessProbe:
